@@ -1,6 +1,19 @@
 #item
 {
-    width: 100px;
-    height: 100px;
-    background-color: green;   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20rem;
+    height: 25rem;
+    border-style: solid;
+    border-color: hsl(204, 14%, 41%);
+    border-radius: 25%;
+}
+
+#img{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 1rem;
+    border-radius: 50%;
 }
