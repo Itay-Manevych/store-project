@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 #item
 {
     display: flex;
@@ -16,4 +17,10 @@
     height: 5rem;
     margin-top: 1rem;
     border-radius: 50%;
+}
+
+#p{
+    font-family: "Raleway";
+    color :hsl(205, 73%, 39%);
+    font-weight: bold;
 }
